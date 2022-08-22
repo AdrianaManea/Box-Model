@@ -1,0 +1,278 @@
+.h1-title {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.a-title {
+  text-decoration: none;
+  color: darkcyan;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.a-title:hover {
+  background-color: darkcyan;
+  color: #333;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Negative Margins Second */
+.negative-margins-second {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: mediumslateblue;
+  padding: 16px;
+}
+
+.negative-margins-second p {
+  border: 1px solid coral;
+  padding: 16px;
+}
+
+.first {
+  margin-bottom: -16px;
+}
+
+/*  Negative Margins */
+.negative-margin-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  padding: 16px;
+  border: 1px solid greenyellow;
+}
+
+.module {
+  padding: 16px;
+  border: 1px solid blue;
+}
+
+.module h2 {
+  background-color: coral;
+  margin: -16px -16px 16px -16px;
+  padding: 16px;
+}
+
+.module p {
+  margin-bottom: 0;
+}
+
+
+/* Collapsing margin */
+.collaps-margin-container-second {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+}
+
+.h2-collaps-second {
+  border: 1px solid thistle;
+  margin: 0 0 20px 0;
+}
+
+.div-collaps {
+  border: 1px solid rgb(247, 6, 14);
+  margin-top: 40px;
+}
+
+.p-collaps-second {
+  border: 1px solid blue;
+  margin-top: 30px;
+}
+
+
+/* Collapsing margin */
+.collaps-margin-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: thistle;
+}
+
+.h2-collaps {
+  margin: 0 0 20px 0;
+  border: 1px solid blue;
+}
+.p-collaps {
+  margin: 10px 0 0 0;
+  border: 1px solid blue;
+}
+
+/* display: inline-block-second */
+.inline-block-second-container {
+  max-width: 1000px;
+  background-color: lavender;
+  margin: 0 auto;
+}
+
+nav {
+  border: #333 solid 1px;
+}
+
+.links-list {
+  display: flex;
+  border: #333 solid 1px;
+}
+
+.links-list li {
+  list-style-type: none;
+  margin: 0 6px;
+}
+
+.links-list a {
+  background-color: mediumblue;
+  text-decoration: none;
+  color: white;
+  padding: 16px 32px;
+
+  /* Adding display: inline-block here it fixes this issue of display by causing the padding to be respected by other elements. */
+
+  /* display: inline-block; */
+}
+
+
+/* display: inline-block */
+.inline-block-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: tan;
+}
+
+.inline-block-span {
+  background-color: lightskyblue;
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  border: 2px solid blue;
+
+  display: inline-block;
+  /* display: block; */
+}
+
+/* Box model and inline boxes */
+.fifth-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: cadetblue;
+}
+
+.padding-span {
+  background-color: coral;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  border: 2px solid blue;
+}
+
+/* Fourth */
+.fourth-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.border {
+  border-top: 5px dotted green;
+  border-right: 1px solid black;
+  border-bottom: 20px double rgb(23, 45, 145);
+}
+
+.border-box {
+  border: 1px solid #333;
+  border-top-style: dotted;
+  border-right-width: 20px;
+  border-bottom-color: hotpink;
+}
+
+/* Third */
+.third-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  height: 150px;
+}
+
+.box-one {
+  margin-bottom: 50px;
+}
+
+.box-two {
+  /* margin-top: -10px; */
+
+  /* width: 390px; */
+  /* height: 240px; */
+}
+
+.alternate {
+  box-sizing: border-box;
+}
+
+
+
+/* Second */
+.second-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+
+.second-p,
+.second-ul {
+  border: 2px solid rebeccapurple;
+}
+
+.second-span,
+.second-li {
+  border: 2px solid blue;
+  
+}
+
+.second-ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+/* First */
+.container-first {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+.first-p, 
+.first-ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+.first-li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+.first-ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+} 
